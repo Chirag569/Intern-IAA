@@ -1,0 +1,19 @@
+{
+  "name": "iaa-chatbot",
+  "version": "1.0.0",
+  "description": "WhatsApp chatbot for Indian Aviation Academy using Dialogflow ES, Node.js, and MongoDB.",
+  "main": "webhook/index.js",
+  "scripts": {
+    "start": "node webhook/index.js",
+    "convert-data": "node scripts/convert_excel_to_json.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.8",
+    "mongoose": "^8.3.4",
+    "xlsx": "^0.18.5",
+    "dialogflow-fulfillment": "^0.6.1"
+  }
+} 
